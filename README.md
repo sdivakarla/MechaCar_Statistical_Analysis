@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
 Statistical Analysis using R
 
 # Overview
@@ -35,3 +35,17 @@ Lot 3 appears to be primarily responsible for the variance shown in the total an
 
 <img width="615" alt="Lot_Summary" src="https://user-images.githubusercontent.com/98054953/172671669-3aa713bb-7d56-4672-8041-5f02054aa4a3.png">
 
+## T-Tests on Suspension Coils
+
+In statistics, t-tests are used to compare the mean of one dataset to that of another.  The production standard for the cars is for the PSI to not statistically differnt from 1500 PSI. T-tests were performed on the samples as a whole as well as each individual lot. 
+
+1. The t-test on the lots in total - The p-value is 0.06, which is greater than 0.5, so the test fails to reject the hypothesis that the means are statistically significantly different.  As a whole the samples meet the standard of 1500 PSI.  The low p-value does indicate that there is almost a statistically significant differnce. 
+
+<img width="505" alt="ttest_all" src="https://user-images.githubusercontent.com/98054953/172674736-5fdff222-3074-4c22-af60-070d1f0de065.png">
+
+2. Individual Lot t-test results - The individual lots again have different results concerning the t-tests. 
+- Lot 1 had a p-value of 1 showing that the mean of the Lot 1 dataset is not different from the population mean. 
+- Lot 2 had a p-value of 0.61, showing that the mean of Lot 2 dataset is also not different from the population mean. 
+- Lot 3 had a p-value of 0.04, less than 0.05, indicating that the mean of Lot 3 is different from the population mean and does not mean the standard of 1500 PSI.
+
+<img width="620" alt="ttest_by_lot" src="https://user-images.githubusercontent.com/98054953/172674715-c2657142-011e-47e0-a672-d25fbf415492.png">
