@@ -49,3 +49,13 @@ In statistics, t-tests are used to compare the mean of one dataset to that of an
 - Lot 3 had a p-value of 0.04, less than 0.05, indicating that the mean of Lot 3 is different from the population mean and does not mean the standard of 1500 PSI.
 
 <img width="620" alt="ttest_by_lot" src="https://user-images.githubusercontent.com/98054953/172674715-c2657142-011e-47e0-a672-d25fbf415492.png">
+
+# Study Design: MechaCar vs Competitor
+
+MechaCar would like a comparison of its vehicle and those of its competitor.  When designing statistical tests to evaluate datasets and the variables responsible for the variance, the ANOVA (Analysis of Variance) is a robust test.  ANOVA compares the means of a continuous numerical variable across multiple factors. The factors to collect data for the analysis could include: 
+- Fuel economy
+- Reliability ratings
+- Safety ratings
+- Brake performance
+- Cost of maintenance
+The null hypothesis would be that the mean of the factors are the same and would require a confidence level of 0.05 to demonstrate that there is a statitisically significant difference. For the ANOVA analysis, the data is required to be: the dependent variable must be a continuous (interval or ratio) level of measurement. The independent variables in ANOVA must be categorical (nominal or ordinal) variables. Because ANOVA can include multiple factors in analysis of the variables, if variance is determined, then additional analysis will be required to study the variance. The additional tests could include t-tests of the individual factors. 
