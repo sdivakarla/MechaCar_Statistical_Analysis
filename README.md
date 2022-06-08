@@ -20,3 +20,18 @@ To evaluate performance, a linear regression comparing mpg vs vehicle length, ve
 
 <img width="786" alt="LinearRegression" src="https://user-images.githubusercontent.com/98054953/172669006-363425ef-bbbe-4abc-8c0c-270579566a8e.png">
 
+# Summary Statistics on Suspension Coils
+
+In evalauting the Suspension Coil data, summary statistics were used to determine the variability in the tests on the coils. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Compliance with this standard was evaluated on all manufacturing lots in total as well as each individual lot. 
+
+1. Lots in total - The lots in total meet the criteria of the variance not exceeding 100 pounds per square inch (PSI).  As shown in the table, below, the variance of the total lots was 62.29 PSI, less than 100 PSI; however, still a notable variance. 
+<img width="415" alt="Total_Summary" src="https://user-images.githubusercontent.com/98054953/172671283-cda8c37c-17e8-44ab-8405-633c7ea456e1.png">
+
+2. Individual lot variance - The individual lots provides additional details concerning the variance noted in the analysis of the total lots. 
+- Lot 1 showed 0.98 PSI variance, well below the criteria. 
+- Lot 2 showed 7.47 PSI variance, still below the criteria.
+- Lot 3 showed 170.29 PSI variance, well above the criteria. 
+Lot 3 appears to be primarily responsible for the variance shown in the total analysis and the performance of Lot 3 merits further review.
+
+<img width="615" alt="Lot_Summary" src="https://user-images.githubusercontent.com/98054953/172671669-3aa713bb-7d56-4672-8041-5f02054aa4a3.png">
+
